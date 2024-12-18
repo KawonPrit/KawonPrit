@@ -102,12 +102,12 @@ body h2 {
     font-size: 22px;
     color: var(--white);
 }
-#s3-project-container {
+#s3-project-container, #s3-project-container2 {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 100px;
-    padding: 30px 0px;
+    padding: 30px 20px;
 }
 #s3-project-img {
     max-width: 670px;
@@ -119,8 +119,25 @@ body h2 {
     max-width: 290px;
     width: 290px;
 }
+#lets-connect {
+    margin: 0 5%;
+    color: var(--color1);
+    border: 3px solid var(--white);
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: var(--white);
+    cursor: pointer;
+}
+#lets-connect:hover {
+    color: var(--white);
+    border: 3px solid var(--white);
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: var(--color1);
+}
+
 @media (max-device-width: 1130px) {
-    #s3-project-container {
+    #s3-project-container, #s3-project-container2 {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -154,12 +171,19 @@ body h2 {
     #s3-project-container {
         flex-direction: column;
     }
+    #s3-project-container2 {
+        flex-direction: column-reverse;
+    }
     #s3-project-img {
         max-width: 90%;
         margin: 0 auto;
     }
-    #s3-project-container h4 {
+    #s3-project-container h4, #s3-project-container2 h4 {
         font-size: 3.5vw;
+        max-width: 90%;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
     }
 }
 @media (max-device-width: 600px) {
