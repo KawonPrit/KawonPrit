@@ -177,7 +177,7 @@ body h2 {
 }
 #s4 {
     background-color: var(--white);
-    padding: 20px 0px;
+    padding: 20px 5%;
 }
 #s4 p, #s4 h3, #s4 a {
     color: var(--color1);
@@ -243,6 +243,9 @@ body h2 {
         width: 90%;
         margin: 0 auto;
         text-align: center;
+    }
+    #footer-elements {
+        gap: 20px;
     }
 }
 @media (max-device-width: 600px) {
