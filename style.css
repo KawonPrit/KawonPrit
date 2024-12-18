@@ -189,6 +189,7 @@ body h2 {
 #down {
     background-color: #FFF;
     border-radius: 50%;
+    transform: scale(0.75);
 }
 @media (min-device-width: 1131px) {
     #down {
